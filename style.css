@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue; 
+    padding: 15px;
+}
+
+body > header > h1 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+body > header > nav > ul {
+    margin: 0;
+    list-style: none;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+}
+
+main {
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.align-right {
+    text-align:right;
+}
+
+.comment {
+    border-top: 1px solid darkslategray;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.user-img {
+    border-radius: 50%;
+}
+
+footer > p {
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
